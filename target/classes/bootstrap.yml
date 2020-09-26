@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: challenger-wine
+  output:
+    ansi:
+      enabled: always # Habilita OUTPUT de log colorido
