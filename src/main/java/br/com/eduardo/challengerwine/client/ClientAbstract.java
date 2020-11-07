@@ -23,7 +23,7 @@ public abstract class ClientAbstract implements IClient {
     public String get(String uri) {
         try {
             HttpEntity<String> requestEntity = new HttpEntity<>("", headers);
-            ResponseEntity<String> responseEntity = rest.exchange(getServer() + uri, HttpMethod.GET,
+            ResponseEntity<String> responseEntity = rest.exchange(uri, HttpMethod.GET,
                     requestEntity, String.class);
             status = responseEntity.getStatusCode();
             return responseEntity.getBody();

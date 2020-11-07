@@ -2,10 +2,10 @@ package br.com.eduardo.challengerwine.domain.dto;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
+import lombok.NoArgsConstructor;
 
-@Builder
 @Data
+@NoArgsConstructor
 public class CepDTO {
 
     private String cep;
@@ -20,3 +20,5 @@ public class CepDTO {
     private String siafi;
 
 }
+
+

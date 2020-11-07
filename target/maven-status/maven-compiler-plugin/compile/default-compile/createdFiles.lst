@@ -10,5 +10,4 @@ br/com/eduardo/challengerwine/exception/CepException.class
 br/com/eduardo/challengerwine/controller/CepController.class
 br/com/eduardo/challengerwine/domain/TCep.class
 br/com/eduardo/challengerwine/client/IClient.class
-br/com/eduardo/challengerwine/domain/dto/CepDTO$CepDTOBuilder.class
 br/com/eduardo/challengerwine/WineApplication.class

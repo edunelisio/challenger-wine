@@ -19,5 +19,8 @@ public class ViaCepClient extends ClientAbstract {
         return server;
     }
 
-
+    public String getCep(String param) {
+        String uri = server + "param" + "/json/";
+        return get(uri.replace("param", param).trim());
+    }
 }
