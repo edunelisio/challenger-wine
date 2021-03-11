@@ -1,6 +1,5 @@
 package br.com.eduardo.challengerwine.controller;
 
-import br.com.eduardo.challengerwine.domain.dto.CepDTO;
 import br.com.eduardo.challengerwine.service.CepService;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
